@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-heading">添加餐厅</div>
+    <div class="panel-heading">编辑餐厅</div>
     <div class="panel-body">
         <form class="form-horizontal" role="form">
 
@@ -87,30 +87,9 @@
 
             <div class="form-group">
                 <div class="col-sm-offset-1 col-sm-11">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> Remember me
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-1 col-sm-11">
                     <button type="submit" class="btn btn-default">保存</button>
                 </div>
             </div>
         </form>
     </div>
 </div>
-
-<!--1	id	bigint	20	0	0			1	1	0
-0	is_chain	tinyint	1	0	0	0		0	0	0
-0	restaurant_name	varchar	255	0	0					0
-0	restaurant_subname	varchar	255	0	1					0
-0	restaurant_description	text	0	0	1					0
-2	district_id	bigint	20	0	0	0		0	1	0
-0		varchar	255	0	1					0
-0		varchar	255	0	1		000-12345678|000-12345678			0
-0		tinyint	6	0	1			0	0	0
-0		float	2	1	0	0.0		0	0
-0		varchar	16	0	1					0-->

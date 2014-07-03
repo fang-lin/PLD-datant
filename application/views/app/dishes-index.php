@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-heading">餐厅分类</div>
+    <div class="panel-heading">菜品</div>
     <div class="panel-body">
         <ul class="pagination">
             <li><a href="#">上一页</a></li>
@@ -15,15 +15,25 @@
                 <thead>
                 <tr>
                     <th>ID</th>
+                    <th>菜名</th>
                     <th>分类</th>
-                    <th>子分类</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>1</td>
                     <td>Table cell</td>
-                    <td></td>
+                    <td>Table cell</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
                 </tr>
                 </tbody>
             </table>

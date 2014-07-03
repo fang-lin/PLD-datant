@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">汉字</a>
+                <a class="navbar-brand" href="#">PLD-datant</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

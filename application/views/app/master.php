@@ -18,7 +18,7 @@
                 <?php $this->load->view('app/menu.php'); ?>
             </div>
             <div class="col-md-10">
-                <?php $this->load->view('app/' . $__class__ . '_' . $__function__ . '.php'); ?>
+                <?php $this->load->view('app/' . $__class__ . '-' . $__function__ . '.php'); ?>
             </div>
         </div>
     </div>

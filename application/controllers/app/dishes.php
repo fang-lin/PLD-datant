@@ -1,6 +1,7 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Dish_Cates extends CI_Controller {
+class Dishes extends CI_Controller
+{
 
     public function __construct()
     {
@@ -9,7 +10,7 @@ class Dish_Cates extends CI_Controller {
         $this->data['__class__'] = strtolower(__CLASS__);
     }
 
-    // app/Dish_Cates/index
+    // app/Dishes/index
     public function index()
     {
         $this->data['__function__'] = strtolower(__FUNCTION__);
@@ -17,5 +18,5 @@ class Dish_Cates extends CI_Controller {
     }
 }
 
-/* End of file Dish_Cates.php */
-/* Location: ./application/controllers/app/Dish_Cates.php */
+/* End of file Dishes.php */
+/* Location: ./application/controllers/Dishes.php */

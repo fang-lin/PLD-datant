@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Restaurant extends CI_Controller
+class Dish extends CI_Controller
 {
 
     public function __construct()
@@ -10,27 +10,20 @@ class Restaurant extends CI_Controller
         $this->data['__class__'] = strtolower(__CLASS__);
     }
 
-    // app/restaurants/index
+    // app/Dish/index
     public function index()
     {
         $this->data['__function__'] = strtolower(__FUNCTION__);
         $this->load->view('app/master.php', $this->data);
     }
 
-    // app/restaurants/add
+    // app/Dish/add
     public function add()
-    {
-        $this->data['__function__'] = strtolower(__FUNCTION__);
-        $this->load->view('app/master.php', $this->data);
-    }
-
-    // app/restaurants/edit
-    public function edit()
     {
         $this->data['__function__'] = strtolower(__FUNCTION__);
         $this->load->view('app/master.php', $this->data);
     }
 }
 
-/* End of file restaurant.php */
-/* Location: ./application/controllers/restaurant.php */
+/* End of file Dish.php */
+/* Location: ./application/controllers/Dish.php */

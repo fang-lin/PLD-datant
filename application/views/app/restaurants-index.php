@@ -21,7 +21,7 @@
                     <th>城市/区域</th>
                     <th>分类</th>
                     <th>电话</th>
-                    <th>菜单</th>
+                    <th>操作</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -33,7 +33,39 @@
                     <td>Table cell</td>
                     <td>Table cell</td>
                     <td>Table cell</td>
+                    <td>
+                        <a href="<?php echo base_url(); ?>app/restaurant_dishes">菜单</a>
+                        |
+                        <a href="<?php echo base_url(); ?>app/restaurant/edit">编辑</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
                     <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>
+                        <a href="">菜单</a>
+                        |
+                        <a href="">编辑</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>
+                        <a href="">菜单</a>
+                        |
+                        <a href="">编辑</a>
+                    </td>
                 </tr>
                 </tbody>
             </table>
